@@ -5,4 +5,10 @@
     - name: debug
       debug:
         msg: "{{ ansible_host }} is successfully connected"
+    - name: print interfaces
+      ios_command:
+        command:
+          - sh ip int br
+          - sh version
+
 
