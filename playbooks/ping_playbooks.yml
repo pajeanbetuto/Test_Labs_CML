@@ -1,0 +1,7 @@
+- name: ping play
+  hosts: all
+  gather_facts: no
+  tasks:
+    - name: debug
+      debug:
+        msg: "{{ ansible_host }} is successfully connected"
