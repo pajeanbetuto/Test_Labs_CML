@@ -4,4 +4,4 @@ ansible_become: yes
 ansible_become_method: enable
 ansible_become_password: controller123@
 ansible_user: controller
-ansible_password: C0nTroll3r124#@
+ansible_password: controller123@
