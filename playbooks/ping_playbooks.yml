@@ -7,7 +7,7 @@
         msg: "{{ ansible_host }} is successfully connected"
     - name: print interfaces
       ios_command:
-        command:
+        commands:
           - sh ip int br
           - sh version
 
