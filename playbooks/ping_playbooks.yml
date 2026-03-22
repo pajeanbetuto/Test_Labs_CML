@@ -5,3 +5,5 @@
     - name: debug
       debug:
         msg: "{{ ansible_host }} is successfully connected"
+    - name: print interfaces
+      cisco
