@@ -10,5 +10,10 @@
         commands:
           - sh ip int br
           - sh version
+      register: output
+    - name: debug output
+      debug:
+        msg: "{{ output }}"
+
 
 
