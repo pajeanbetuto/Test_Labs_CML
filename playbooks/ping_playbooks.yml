@@ -13,7 +13,7 @@
       register: output
     - name: debug output
       debug:
-        msg: "{{ output }}"
+        msg: "{{ output.stdout_lines[0] }} and {{output.stdout_lines[1][0]}}"
 
 
 
